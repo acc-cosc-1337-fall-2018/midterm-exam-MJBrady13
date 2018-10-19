@@ -41,13 +41,9 @@ Write two test cases for the factorial function with values 3 and 5.
 factorial(3) should result in   6 
 factorial(5) should result in 120
 */
-TEST_CASE("Question 2: Factorial function test") 
-{
-	REQUIRE(factorial(3) == 6);
-}
-
 TEST_CASE("Question 2: Factorial function test")
 {
+	REQUIRE(factorial(3) == 6);
 	REQUIRE(factorial(5) == 120);
 }
 /*
