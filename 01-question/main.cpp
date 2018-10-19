@@ -1,4 +1,9 @@
 //Don't forget includes!!!!!
+#include"evaluation.h"
+#include<string>
+#include<iostream>
+
+using namespace std;
 
 /*
 Call the faculty_evaluation function with 
@@ -12,5 +17,8 @@ Output result to screen.
 */
 int main() 
 {
+	string result = " ";
+	faculty_evaluation(200, 188, 8, 4, result);
+	cout << result;
 	return 0;
 }

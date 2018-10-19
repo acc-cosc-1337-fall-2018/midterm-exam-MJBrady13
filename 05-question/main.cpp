@@ -1,4 +1,10 @@
 //Don't forget includes!!!!!
+#include"animal.h"
+#include"cat.h"
+#include"dog.h"
+#include<iostream>
+
+using namespace std;
 
 
 /*
@@ -12,6 +18,15 @@ Create an Animal reference to the dog instance and call the make_sound function.
 */
 int main() 
 {
+	Animal animal;
+	Dog dog;
+	Cat cat;
 
+	animal.make_sound();
+	dog.make_sound();
+	cat.make_sound();
+
+	Animal& animal_d = dog;
+	animal_d.make_sound();
 	return 0;
 }

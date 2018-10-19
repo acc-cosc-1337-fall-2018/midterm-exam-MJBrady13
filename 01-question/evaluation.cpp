@@ -1,9 +1,17 @@
 #include "evaluation.h"
+#include<string>
+#include <iostream>
+
+using namespace std;
+
 //SAMPLE FUNCTION code
 int sum_numbers(int num1, int num2) 
 {
 	return num1 + num2;
 }
+
+
+
 
 
 /*
@@ -36,3 +44,22 @@ for this question!
 2) Go to main.cpp to write code to call this function.
 
 */
+
+void faculty_evaluation(int responses, int alw, int voft, int oft, string & result)
+{
+	double alw_percent = (alw / responses) * 100;
+	double voft_percent = voft / responses * 100;
+	double oft_percent = oft / responses * 100;
+	cout << alw_percent;
+	if (alw_percent + voft_percent >= 90)
+	{
+		result = "Excellent";
+	}
+	else if(alw_percent + voft_percent >= 80)
+	{
+		result = "Good";
+	}
+	else {
+		result = "Needs Improvement";
+	}
+}

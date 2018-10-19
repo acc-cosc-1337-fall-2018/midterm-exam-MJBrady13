@@ -24,7 +24,17 @@ FOCUS ON CREATING THE CLASS STRUCTURE.
 
 */
 //WRITE CLASS header here
-
+class Dive
+{
+public:
+	double get_sacr();
+	int d;
+	int s;
+	int f;
+	int t;
+private:
+	
+};
 
 
 

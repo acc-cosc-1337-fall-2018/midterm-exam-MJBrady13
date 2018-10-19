@@ -5,6 +5,16 @@ int multiply_numbers(int num1, int num2)
 	return num1 * num2;
 }
 
+int factorial(int num)
+{
+	int fact_num = 1;
+	for (int i = 1; i >num; i += 1)
+	{
+		fact_num = fact_num * i;
+	}
+	return fact_num;
+}
+
 /*
 POINTS FOR THIS QUESTION: 10
 
