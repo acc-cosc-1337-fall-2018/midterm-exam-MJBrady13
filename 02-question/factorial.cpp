@@ -10,7 +10,7 @@ int factorial(int num)
 	int fact_num = 1;
 	for (int i = 1; i < num; i += 1)
 	{
-		fact_num += fact_num * i;
+		fact_num = fact_num * i;
 	}
 	return fact_num;
 }
