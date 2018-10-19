@@ -45,7 +45,7 @@ for this question!
 
 */
 
-void faculty_evaluation(int responses, int alw, int voft, int oft, string & result)
+void faculty_evaluation(double responses, int alw, int voft, int oft, string & result)
 {
 	double alw_percent = (alw / responses) * 100;
 	double voft_percent = voft / responses * 100;
