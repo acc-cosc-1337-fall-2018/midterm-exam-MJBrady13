@@ -13,4 +13,4 @@ and a reference string parameter named result that will hold the student evaluat
 for this question!
 2) Go to main.cpp to write code to call this function.*/
 
-void faculty_evaluation(int responses, int alw, int voft, int oft, string& result);
+void faculty_evaluation(double responses, int alw, int voft, int oft, string& result);
